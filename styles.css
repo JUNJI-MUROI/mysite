@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.lesson-wrapper {
+    display: flex;
+}
+
+.intro {
+    margin: 0 auto;
+    display: flex;
+    background: #f2f2f3;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding: 30px;
+    color: white;
+}
+
+.lesson-wrapper {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+}
+
+.intro img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+}
+
+
+.lesson-icon img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.migi {
+    margin-top: 80px;
+    margin-bottom: 120px;
+    display: flex;
+}
+
+.hidari {
+    display: flex;
+    margin-bottom: 120px;
+    padding-top: 100px;
+    
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+    background-image: url(kuro.jpg);
+    text-align: center;
+    margin-top: 70px;
+}
+
+.hidari-matome {
+    margin-left: 50px;
+}
+
+.migi-matome {
+    margin-right: 50px;
+}
+
+footer {
+    /* background-color: black; */
+    color: black;
+    padding: 80px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.kuro {
+    width: 100%;
+}
+
+.wawa img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    width: 100%;
+}
+
+.daimei {
+    position: relative;
+    color: white;
+    z-index: 10;
+    display: none;
+    font-size: 60px;
+}
+
+.hukudaimei {
+    position: relative;
+    color: white;
+    z-index: 10;
+    display: none;
+    font-size: 30px;
+}
+
+.ma {
+    text-align: center;
+    margin-top: 25%;
+    position: relative;
+    z-index: 8;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.nav-item a {
+    font-size: 20px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact-contents {
+    margin-bottom: 50px;
+}
+
+.iti {
+    padding: 4px 60px 4px 60px;
+}
+
+.nii {
+    padding: 4px 60px 4px 60px;
+}
+
+.san {
+    padding: 30px 60px 30px 60px;
+}
+
+.lesson {
+    margin-right: 20px;
+}
+
+.lesson h5 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.under {
+    /* background: linear-gradient(transparent 90%, oldlace 50%);
+    padding: 8px; */
+}
+
+/* .under-a {
+    background: linear-gradient(transparent 50%, oldlace 50%);
+    padding: 8px;
+    width: 66%;
+    margin: 0 auto;
+} */ */
+
+
+
+.sen {
+    padding: 8px 19px;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background-color: oldlace;
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+}
+
+.hidari img {
+    border: outset 10px #500;
+}
+
+.migi img {
+    border: inset 10px #500;
+}
+
+.lesson img {
+    border: 6px solid black;
+}
+
+.intro-contents {
+    width: 400px;
+    margin-left: 100px;
+}
+
+.intro {
+    margin-left: 200px;
+}
+
+ul {
+    z-index: 20;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 8;
+    background-color: rgba(0,0,0,0.6);
+    align-items: center;
+}
+
+ul li a {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-size: 40px;
+   }
+   
+ul li a:hover {
+       opacity: 0.5;
+       text-decoration: none;
+       color: black;
+   }
+
+th,td{
+    border:solid 1px white;
+}
+
+  th {
+      padding: 20px;
+  }
+
+  td {
+      padding: 50px;
+  }
+
+  .kakakudesu {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 50px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 300px;
+  }
+
+  .point {
+    padding-top: 100px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 60%;
+    margin: 0 auto;
+  }
+
+.kakaku {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.kakaku-matome {
+    width: 800px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 100px;
+}
+
+.container {
+ padding: 60px 0;
+}
+
+
+
+
+
+
+.form-iti {
+    /* ここはだいじ */
+    max-width:1000px;
+    margin:0 auto; 
+    padding-top: 110px;
+}
+
+
+.feedback-input {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  border:2px solid black;
+  padding: 13px;
+  margin-bottom: 90px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  /* resize:vertical; */
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:black;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+
+}
+
+[type="submit"]:hover {
+    background: white;
+}
+
+form h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+
+.form {
+    padding: 40px;
+}
+
+.form p {
+    color: red;
+}
+
